@@ -1,7 +1,7 @@
 import React from "react";
 import { View, StyleSheet, Text, Image, Pressable, ScrollView } from "react-native";
 
-const Prof = ({navigation}) => {
+const Page1 = ({navigation}) => {
   return (
      <View style={{justifyContent: 'center', alignItems: 'center', padding: 24, }}>
       <Text style={styles.paragraph}>БОЛЬ 2</Text>
@@ -94,4 +94,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Prof;
+export default Page1;

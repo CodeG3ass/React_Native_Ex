@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 const Stack = createStackNavigator();
 
 
-const About = ({navigation}) => {
+const Page2 = ({navigation}) => {
   return (
      <View style={{justifyContent: 'center', alignItems: 'center', padding: 24, }}>
       <Text style={styles.paragraph}>Лелуш Ви Британия</Text>
@@ -24,7 +24,7 @@ const About = ({navigation}) => {
          <Text style={styles.text_forcont}>C.C</Text>
          <Text style ={styles.text_phone2}>13-13-13</Text>
         <Pressable
-        onPress={() => navigation.navigate('Профиль Кошки два')}
+        onPress={() => navigation.navigate('Z z Z z Z')}
         style={{ alignItems: 'center', padding: 10, marginBottom: 10, marginTop: 10, }}
       >
       <Text>профиль</Text>
@@ -99,4 +99,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default About;
+export default Page2;

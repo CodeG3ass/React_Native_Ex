@@ -11,8 +11,8 @@ import {
 import { createStackNavigator } from '@react-navigation/stack';
 import App2 from './App2';
 import { Card } from 'react-native-paper';
-import About from "./About";
-import Prof from "./Prof"
+import Page1 from "./page1";
+import Page2 from "./page2"
 const Separator = () => (
   <View style={styles.separator} />
 );
@@ -37,7 +37,7 @@ function Feed({ navigation }) {
          <Text style={styles.text_forcont}>Pain 1</Text>
          <Text style ={styles.text_phone2, {marginBottom:-5}}>6(391)533-78</Text>
          <Pressable
-        onPress={() => navigation.navigate('Профиль Кошки раз')}
+        onPress={() => navigation.navigate('Z Z Z')}
         style={{ alignItems: 'center', padding: 10, marginBottom: 10, marginTop: 10, }}
       >
       <Text>Profile</Text>
@@ -48,7 +48,7 @@ function Feed({ navigation }) {
          <Text style={styles.text_forcont}>Pain 2</Text>
          <Text style ={styles.text_phone2, {marginBottom:-5}}>6(491)663-18</Text>
           <Pressable
-        onPress={() => navigation.navigate('Профиль Кошки два')}
+        onPress={() => navigation.navigate('Geass 1')}
         style={{ alignItems: 'center', padding: 10, marginBottom: 10, marginTop: 10, }}
       >
       <Text>Profile</Text>
@@ -65,8 +65,8 @@ function Feed({ navigation }) {
 const MainStackNavigator = () => {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Профиль Кошки раз" component={About} />
-       <Stack.Screen name="Профиль Кошки два" component={Prof} />
+      <Stack.Screen name="Killnet" component={Page1} />
+       <Stack.Screen name="ZzZ" component={Page2} />
     </Stack.Navigator>
   );
 }
