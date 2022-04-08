@@ -2,6 +2,7 @@
 ## Цель работы
 Получить навыки работы с адаптивными объектами в React Native.
 ## Задания для выполнения
+
 ```java
 export default function App() {
   return (
