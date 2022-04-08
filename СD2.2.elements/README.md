@@ -1,11 +1,30 @@
-# Sample Snack app
+# Гибкие элементы в React Native
+## Цель работы
+Получить навыки работы с адаптивными объектами в React Native.
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
-
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
-
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## Задания для выполнения
+```java
+xport default function App() {
+  return (
+    <View style={styles.container}>
+      <View style={{ flex: 2, backgroundColor: 'white' }}>
+      <Text style={styles.paragraph}>5 книжных новинок октября
+      </Text>
+      </View>
+      <View style={{ flex: 3, backgroundColor: 'skyblue' }}>
+      <Text style={styles.text2}>«Кадиш.com» Натан Ингландер. Издательство «Книжники»
+      </Text></View>
+      <View style={{ flex: 10, backgroundColor: 'steelblue' }}>
+      <Text style={styles.text3}>Ироничная новелла Натана Ингландера, две личные истории культовой Патти Смит, репортаж британской журналистки о будущем человечества, дебютный роман Оушена Вуонга и журналистское расследование о создании «Моссада». В нашей подборке рассказываем о пяти захватывающих книжных новинках, которые достойны того, чтобы появиться на ваших полках.
+      </Text> 
+      <Button style={styles.butt}
+        title="Читать далее"
+         color="darkblue"
+        onPress={() => Alert.alert('Читать далее')}
+      /></View>
+     
+    </View>
+  );
+}
+```
+![image](https://user-images.githubusercontent.com/92590831/162346116-a6d9591d-a74c-489e-8f75-4e9ad5a3b6bf.png)
