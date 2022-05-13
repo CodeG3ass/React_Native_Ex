@@ -1,11 +1,10 @@
-# Sample Snack app
+# CD2.6. Форма регистрации
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+## Цель работы
+В этом работе мы научимся создавать форму регистрации в React Native. 
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+## Результат
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+![image](https://user-images.githubusercontent.com/92590831/168255247-44cc5712-26bb-4199-b404-4e981dafaf6f.png)
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+![image](https://user-images.githubusercontent.com/92590831/168255267-dc505792-0b1c-4f0a-8824-e5ef7a39edea.png)
