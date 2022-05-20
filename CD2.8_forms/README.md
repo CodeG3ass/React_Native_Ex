@@ -1,11 +1,16 @@
-# Sample Snack app
+# Передача данных с формы
+# Цель работы
+В этом работе мы познакомимся со способами передавать данные с одного экрана на другой.
+# Задания для выполнения
+![image](https://user-images.githubusercontent.com/92590831/169502748-8ef15b63-517b-4dbe-a4fe-d68c77aa2b37.png)
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
+![image](https://user-images.githubusercontent.com/92590831/169502763-40cfdc67-469b-4ab9-9b28-452a732ef84a.png)
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
+![image](https://user-images.githubusercontent.com/92590831/169502780-4ebb1a25-9f88-4f60-a828-bc9db6b42e9f.png)
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
+![image](https://user-images.githubusercontent.com/92590831/169502806-67b5a638-6a8e-4b00-b46e-130e4a833b0d.png)
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
+![image](https://user-images.githubusercontent.com/92590831/169502827-ed7a5d25-8cc4-40dc-89c0-38f6072ea4b4.png)
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+![image](https://user-images.githubusercontent.com/92590831/169502843-4bc5a425-76c3-4999-86f0-8b3e8dc29eea.png)
+
